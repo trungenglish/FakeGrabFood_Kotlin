@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_150sdp"
+    android:layout_height="@dimen/_150sdp"
+    android:layout_gravity="center"
+    android:layout_marginRight="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgFood"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_100sdp"
+            android:src="@drawable/international_food" />
+
+        <TextView
+            android:id="@+id/txtSaleOff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ưu đãi đến 45k - 20.000đ off"
+            android:textSize="10sp"
+            android:textColor="#FF5722"
+            android:padding="6dp"/>
+        <TextView
+            android:id="@+id/txtFoodName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_15sdp"
+            android:text="Chick and Cheese - Gà cay phô mai, Gà rán Hàn Quốc"
+            android:ellipsize="end"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15 phút . "/>
+            <TextView
+                android:id="@+id/txtDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.5km . "/>
+            <TextView
+                android:id="@+id/txtRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.5(730)"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

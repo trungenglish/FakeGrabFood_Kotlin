@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_200sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical"
+        android:paddingRight="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txtHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mua ngay"
+                android:textSize="20sp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_next"
+                android:layout_marginLeft="8dp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgBanner"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_140sdp"
+            android:src="@drawable/banner_food"/>
+
+        <TextView
+            android:id="@+id/txtContentBanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mua Voucher Nhà Hàng đi ăn bao hời"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+        <TextView
+            android:id="@+id/txtNameBanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ad - Grapfood Voucher Nhà Hàng"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
